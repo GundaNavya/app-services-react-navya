@@ -11,6 +11,7 @@ import MainHeader from '../components/MainHeader';
 import Header from '../components/HeaderBar';
 import SideHeader from '../components/SideNavbar'; 
 import MyComponent from '../components/GetText';
+import UploadFile from '../components/FileUpload';
 
 
 
@@ -27,6 +28,7 @@ const AppRouter = () => (
         <Route path="/apps" component={EditExpansePage}/>
         <Route path="/devportal" component={HelpPage}/>
         <Route path="/gettext" component={MyComponent}/>
+        <Route path="/contact" component={UploadFile}/>
         <Route component={NotFoundPage}/>
      </Switch>
      </div>
