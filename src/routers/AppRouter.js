@@ -9,7 +9,7 @@ import HelpPage from '../components/HelpPage';
 import NotFoundPage from '../components/PageNotFound';
 import MainHeader from '../components/MainHeader';
 import Header from '../components/HeaderBar';
-// import SideHeader from '../components/SideNavBar'; 
+import SideHeader from '../components/SideNavBar'; 
 import MyComponent from '../components/GetText';
 
 
@@ -19,7 +19,8 @@ import MyComponent from '../components/GetText';
 const AppRouter = () => (
     <BrowserRouter>
     <div>
-    <MainHeader />        
+    <MainHeader />    
+    <SideHeader />
     <Switch>
         <Route path="/" component={ExpanseDashboardPage} exact={true}/>
         <Route path="/api" component={AddExpansePage}/>
