@@ -9,7 +9,7 @@ import HelpPage from '../components/HelpPage';
 import NotFoundPage from '../components/PageNotFound';
 import MainHeader from '../components/MainHeader';
 import Header from '../components/HeaderBar';
-import SideHeader from '../components/SideNavBar'; 
+import SideHeader from '../components/SideNavbar'; 
 import MyComponent from '../components/GetText';
 
 

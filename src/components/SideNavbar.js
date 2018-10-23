@@ -10,23 +10,21 @@ var SideHeader = React.createClass({
             hover: false
         };
     },
-    // hoverOn: function(e){
-    //     this.setState({ hover: true });
-    // },
-    // hoverOff: function(e){
-    //     this.setState({ hover: false });
-    // },
+    hoverOn: function(e){
+        this.setState({ hover: true });
+    },
+    hoverOff: function(e){
+        this.setState({ hover: false });
+    },
     render: function(){
         return (
             <div>
             <div id="main-menu-inner"><div className="nav-collapsed"> 
             
             
-            <div id="side-navigation"
-            //  className={ this.state.hover ? "side-navigation-max" : "side-navigation-min"} 
-            // onMouseEnter={this.hoverOn} 
-            // onMouseLeave={this.hoverOff}
-            ><ul > 
+            <div id="side-navigation" className={ this.state.hover ? "side-navigation-max" : "side-navigation-min"} 
+            onMouseEnter={this.hoverOn} 
+            onMouseLeave={this.hoverOff}><ul > 
             <li><NavLink to="/abc" className="kony-logo"><i className="logo"></i></NavLink></li>
             <li><NavLink to="/" className="icons dashboard" activeClassName="is-active" exact={true} ><i className="icon32 di-block v-middle icon-dashboard-inactive  mr-15"></i><span>Dashboard </span></NavLink></li>
             <li><NavLink to="/api" className="icons api" activeClassName="is-active"  exact={true}> <i className="icon32 di-block v-middle icon-API-inactive mr-15"></i><span>API Management</span></NavLink></li>
