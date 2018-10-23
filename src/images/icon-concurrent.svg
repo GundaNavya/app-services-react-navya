@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#00A2D9;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#8FC541;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#8FC441;}
+</style>
+<g>
+	<g id="Shape_1">
+		<g>
+			<path class="st0" d="M17.1,24.9V9.3h-3v16.4c0,0-0.6,1.9,3,2.2h6v-3H17.1z"/>
+		</g>
+	</g>
+	<g id="Rectangle_1">
+		<g>
+			<rect x="6.7" y="15.3" class="st0" width="15.6" height="3"/>
+		</g>
+	</g>
+	<g id="Ellipse_1">
+		<g>
+			<path class="st1" d="M15.6,1.1c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5s4.5-2,4.5-4.5S18.1,1.1,15.6,1.1z M15.6,7.4
+				c-1,0-1.8-0.8-1.8-1.8s0.8-1.8,1.8-1.8s1.8,0.8,1.8,1.8S16.6,7.4,15.6,7.4z"/>
+		</g>
+	</g>
+	<g id="Ellipse_1_copy_2">
+		<g>
+			<path class="st1" d="M5.2,12.3c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5s4.5-2,4.5-4.5S7.7,12.3,5.2,12.3z M5.2,18.5
+				c-1,0-1.8-0.8-1.8-1.8c0-1,0.8-1.8,1.8-1.8S7,15.8,7,16.7C7,17.7,6.2,18.5,5.2,18.5z"/>
+		</g>
+	</g>
+	<g id="Ellipse_1_copy_3">
+		<g>
+			<path class="st1" d="M26.1,12.3c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5s4.5-2,4.5-4.5S28.5,12.3,26.1,12.3z M26.1,18.5
+				c-1,0-1.8-0.8-1.8-1.8c0-1,0.8-1.8,1.8-1.8s1.8,0.8,1.8,1.8C27.8,17.7,27,18.5,26.1,18.5z"/>
+		</g>
+	</g>
+	<g id="Ellipse_1_copy_4">
+		<g>
+			<path class="st2" d="M26.8,22c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5s4.5-2,4.5-4.5S29.3,22,26.8,22z M26.8,28.2
+				c-1,0-1.8-0.8-1.8-1.8c0-1,0.8-1.8,1.8-1.8c1,0,1.8,0.8,1.8,1.8C28.6,27.4,27.8,28.2,26.8,28.2z"/>
+		</g>
+	</g>
+</g>
+</svg>

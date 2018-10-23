@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:none;stroke:#818181;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#8E8E8E;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#1E88E5;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#64B5F6;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#9E9E9E;stroke-miterlimit:10;}
+</style>
+<g id="Layer_1" class="st0">
+	<g class="st1">
+		<path class="st2" d="M12.9,27.1c-0.8,0-1.4,0.6-1.4,1.4S12,30,12.9,30s1.4-0.6,1.4-1.4S13.7,27.1,12.9,27.1z"/>
+		<path class="st3" d="M21.3,8.1l0-5.7C21.3,1.6,20.5,1,20,1H7.2C6.4,1,5.8,1.9,5.8,2.4v23.7h15.5H5.8v3.5c0,0.8,0.8,1.4,1.4,1.4H20
+			c0.8,0,1.4-0.8,1.4-1.4v-8.2 M11.5,4.4h3.1H11.5z M12.9,29.8c-0.8,0-1.4-0.6-1.4-1.4S12,27,12.9,27s1.4,0.6,1.4,1.4
+			S13.7,29.8,12.9,29.8z"/>
+	</g>
+	<g class="st1">
+		<path class="st4" d="M15.1,9.8l-5.9,3.4c-0.3,0.3-0.6,0.6-0.6,0.8s0.3,0.8,0.3,0.8l5.9,4.5"/>
+		<path class="st4" d="M21.6,19.1l5.9-4.5c0.3-0.3,0.3-0.6,0.3-0.8c0-0.3-0.3-0.8-0.6-0.8l-5.9-3.4"/>
+		<path class="st5" d="M16.8,21.6l2.5-13.8"/>
+	</g>
+</g>
+<g id="Layer_2">
+	<g>
+		<path class="st6" d="M12.9,27.1c-0.8,0-1.4,0.6-1.4,1.4S12,30,12.9,30s1.4-0.6,1.4-1.4S13.7,27.1,12.9,27.1z"/>
+		<path class="st6" d="M21.3,8.1l0-5.7C21.3,1.6,20.5,1,20,1H7.2C6.4,1,5.8,1.9,5.8,2.4v23.7h15.5H5.8v3.5c0,0.8,0.8,1.4,1.4,1.4H20
+			c0.8,0,1.4-0.8,1.4-1.4v-8.2 M11.5,4.4h3.1H11.5z M12.9,29.8c-0.8,0-1.4-0.6-1.4-1.4S12,27,12.9,27s1.4,0.6,1.4,1.4
+			S13.7,29.8,12.9,29.8z"/>
+	</g>
+	<g>
+		<path class="st6" d="M15.1,9.8l-5.9,3.4c-0.3,0.3-0.6,0.6-0.6,0.8s0.3,0.8,0.3,0.8l5.9,4.5"/>
+		<path class="st6" d="M21.6,19.1l5.9-4.5c0.3-0.3,0.3-0.6,0.3-0.8c0-0.3-0.3-0.8-0.6-0.8l-5.9-3.4"/>
+		<path class="st6" d="M16.8,21.6l2.5-13.8"/>
+	</g>
+</g>
+</svg>
