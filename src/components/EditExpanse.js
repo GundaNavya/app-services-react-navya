@@ -5,6 +5,8 @@ import React from 'react';
 //     <div>This is from Apps dashboard page</div>
 // );
 
+import TabHeader from '../components/TabHeader';
+
 
 var EditExpansePage = React.createClass({
     getInitialState: function(){
@@ -21,7 +23,9 @@ var EditExpansePage = React.createClass({
     },
     render: function(){
         return(
+            
             <div>
+            <TabHeader />
             <a 
                 className={ this.state.hover ? "minwidth" : "maxwidth"} 
                 onMouseEnter={this.hoverOn} 

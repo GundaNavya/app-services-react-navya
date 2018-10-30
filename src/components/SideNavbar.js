@@ -25,16 +25,17 @@ var SideHeader = React.createClass({
             <div id="side-navigation" className={ this.state.hover ? "side-navigation-max" : "side-navigation-min"} 
             onMouseEnter={this.hoverOn} 
             onMouseLeave={this.hoverOff}><ul > 
-            <li><NavLink to="/abc" className="kony-logo"><i className="logo"></i></NavLink></li>
-            <li><NavLink to="/" className="icons dashboard" activeClassName="is-active" exact={true} ><i className="icon32 di-block v-middle icon-dashboard-inactive  mr-15"></i><span>Dashboard </span></NavLink></li>
-            <li><NavLink to="/api" className="icons api" activeClassName="is-active"  exact={true}> <i className="icon32 di-block v-middle icon-API-inactive mr-15"></i><span>API Management</span></NavLink></li>
-            <li><NavLink to="/apps" className="icons apps selected" activeClassName="is-active" exact={true}> <i className="icon32 di-block v-middle mr-15 icon-apps"></i><span>Apps</span></NavLink></li>
-            <li><NavLink to="/gettext" className="icons dev-portal" activeClassName="is-active" exact={true}> <i className="icon32 di-block v-middle icon-developer-portal-inactive mr-15"></i><span>Developer Portal</span></NavLink></li>
-            <li><NavLink to="/contact" className="icons clouds" activeClassName="is-active" exact={true}><i className="icon32 di-block v-middle icon-environments-inactive  mr-15"></i><span>Environments </span> </NavLink></li>
-            <li><NavLink to="/site" className="icons reports" activeClassName="is-active" exact={true}> <i className="icon32 di-block v-middle icon-reports-inactive mr-15"></i><span>Reports</span> </NavLink></li>
+            <li><NavLink to="/abc" className="kony-logo"><i className="logo"></i>LOGO</NavLink></li>
+            <li><NavLink to="/apps" className="icons apps selected" activeClassName="is-active" exact={true}> <i className="icon32 di-block v-middle mr-15 icon-apps"></i><span>Apps</span></NavLink></li>            
+            <li><NavLink to="/" className="icons dashboard" activeClassName="is-active" exact={true} ><i className="icon32 di-block v-middle icon-dashboard-inactive  mr-15"></i><span>Monitoring </span></NavLink></li>
+            <li><NavLink to="/api" className="icons api" activeClassName="is-active"  exact={true}> <i className="icon32 di-block v-middle icon-API-inactive mr-15"></i><span>Jobs</span></NavLink></li>
+            
+            <li><NavLink to="/gettext" className="icons dev-portal" activeClassName="is-active" exact={true}> <i className="icon32 di-block v-middle icon-developer-portal-inactive mr-15"></i><span>Health Check</span></NavLink></li>
+            <li><NavLink to="/contact" className="icons clouds" activeClassName="is-active" exact={true}><i className="icon32 di-block v-middle icon-environments-inactive  mr-15"></i><span>Logs </span> </NavLink></li>
+            
             <li><NavLink to="/about" className="icons settings" activeClassName="is-active" exact={true}> <i className="icon32 di-block v-middle icon-settings-inactive mr-15"></i><span>Settings</span> </NavLink></li>
-            <li><NavLink to="/career" className="icons support" activeClassName="is-active" exact={true}> <i className="icon32 di-block v-middle icon-support-inactive mr-15"></i><span>Support</span></NavLink></li>
-            <li className="product-name" ><NavLink to="/career" activeClassName="is-active" exact={true} className="mb_title">Kony Fabric Console </NavLink></li></ul> </div>
+            <li><NavLink to="/career" className="icons support" activeClassName="is-active" exact={true}> <i className="icon32 di-block v-middle icon-support-inactive mr-15"></i><span>Reoprts</span></NavLink></li>
+            <li className="product-name" ><NavLink to="/career1" activeClassName="is-active" exact={true} className="mb_title">Kony Fabric Console </NavLink></li></ul> </div>
             </div>
             </div>
         </div>   

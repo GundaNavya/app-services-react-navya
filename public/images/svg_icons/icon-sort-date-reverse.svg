@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 13 11.7" style="enable-background:new 0 0 13 11.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{enable-background:new    ;}
+	.st1{fill:#807F7F;}
+	.st2{fill:none;}
+	.st3{font-family:'ProximaNova-Bold';}
+	.st4{font-size:7px;}
+</style>
+<g id="Rectangle_2_1_" class="st0">
+	<g id="Rectangle_2">
+		<g>
+			<path class="st1" d="M3.6,10.5V2.6l1.3,1.3c0.1,0,0.2,0,0.2,0s0.2,0,0.3-0.1l0.3-0.3c0.1-0.1,0.1-0.4,0-0.5L3.3,0.7
+				c0,0-0.1-0.1-0.2-0.1c-0.1,0-0.2,0-0.3,0.1L0.5,3.1c-0.1,0.1-0.1,0.4,0,0.5l0.3,0.3c0,0,0.1,0,0.2,0s0.2,0,0.3-0.1l1.3-1.3v8.2
+				c0,0.1,0.1,0.2,0.2,0.3v0.4h4.5v-1H3.6V10.5z"/>
+		</g>
+	</g>
+</g>
+<rect x="8.7" y="5.6" class="st2" width="2.9" height="8.2"/>
+<text transform="matrix(1 0 0 1 8.6954 11.4485)" class="st1 st3 st4">1</text>
+<rect x="8" y="-0.5" class="st2" width="4.3" height="8.2"/>
+<text transform="matrix(1 0 0 1 7.9645 5.3508)" class="st1 st3 st4">9</text>
+</svg>

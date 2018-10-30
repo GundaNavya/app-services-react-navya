@@ -14,7 +14,7 @@ button:disabled {
   line-height: 1.4;
   position: fixed;
   left: -45px;
-  top: 50px;
+  top: 0px;
   height: 100%;
   width: 200px;
   overflow: hidden;
@@ -22,7 +22,7 @@ button:disabled {
   color: #c8c8c8;
   background: #2a333c;
   overflow-x: hidden;
-  z-index: 999;
+  z-index: 9999;
 }
 #side-navigation ul {
   width: 200px;
