@@ -12,9 +12,15 @@ import Header from '../components/HeaderBar';
 import SideHeader from '../components/SideNavbar'; 
 import MyComponent from '../components/GetText';
 import UploadFile from '../components/FileUpload';
-import IdentityTab from '../components/IdentityApps';
+import ObjectsTab from '../components/ObjectApps';
 import IntegrationTab from '../components/IntegrationApps';
 import OrchTab from '../components/OrchApps';
+import LogTabs from '../components/LogTabs';
+import StandardTab from '../components/StandardLogs';
+import TraceTab from '../components/TraceLogs';
+import JobDetails from '../components/JobDetails';
+import Products from '../components/SearchBox';
+
 
 
 
@@ -22,19 +28,24 @@ import OrchTab from '../components/OrchApps';
 const AppRouter = () => (
     <BrowserRouter>
     <div>
-    <MainHeader />    
+    <MainHeader />      
     <SideHeader />
     
+    
     <Switch>
-        <Route path="/" component={ExpanseDashboardPage} exact={true}/>
-        <Route path="/api" component={AddExpansePage}/>
-        <Route path="/apps" component={EditExpansePage} exact={true}/>
-        <Route path="/apps/identity" component={IdentityTab}/>
+        <Route path="/healthcheck" component={ExpanseDashboardPage} exact={true}/>
+        <Route path="/jobs" component={JobDetails}/>
+        <Route path="/" component={EditExpansePage} exact={true}/>
+        <Route path="/apps/objects" component={ObjectsTab}/>
         <Route path="/apps/integration" component={IntegrationTab}/>
         <Route path="/apps/orchestration" component={OrchTab}/>
         <Route path="/devportal" component={HelpPage}/>
         <Route path="/gettext" component={MyComponent}/>
-        <Route path="/contact" component={UploadFile}/>
+        <Route path="/contact" component={UploadFile} exact={true}/>
+        <Route path="/contact/standard" component={StandardTab}/>
+        <Route path="/contact/trace" component={TraceTab}/>
+        <Route path="/search" component={Products}/>
+
         <Route component={NotFoundPage}/>
      </Switch>
      </div>

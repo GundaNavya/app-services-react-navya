@@ -1,14 +1,14 @@
 import React from 'react';
 import TabHeader from '../components/TabHeader';
 
-var OrchTab = React.createClass({
+var ObjectTab = React.createClass({
     
     render: function(){
         return(
             <div>
             <TabHeader />
             <div className="col-sm-12">
-            <h4>This is from App Orchestration</h4>
+            <h4>This is from App Objects</h4>
             
             <div className="col-sm-3 pr-0">
             <div className="form-group">                                
@@ -17,7 +17,7 @@ var OrchTab = React.createClass({
                   <option value="">All Apps</option>
                   <option value="app-one">App One</option>
                   <option value="app-two">App Two</option>
-                  <option value="a  pp-three">App Three</option>
+                  <option value="app-three">App Three</option>
                 </select>
               </div>
             </div>
@@ -117,4 +117,4 @@ var OrchTab = React.createClass({
     }
     });
 
-    export default OrchTab;
+    export default ObjectTab;

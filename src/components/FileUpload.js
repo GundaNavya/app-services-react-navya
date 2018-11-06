@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import LogTabs from '../components/LogTabs';
 
 
 class UploadFile extends Component{
@@ -21,7 +22,8 @@ class UploadFile extends Component{
     }
     render(props){
         return(
-            <div>
+            <div>   
+            <LogTabs />
             <h1>From File Upload page</h1>
             <h4>FIle name is : {this.state.uploaded_file}</h4>
             <input type="file" onChange={this.onSelected}/> 
