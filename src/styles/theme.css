@@ -389,3 +389,16 @@ button:focus {
     /* position: absolute; */
     bottom: 0px;
 }
+#side-navigation li:hover .module{
+    color:#03aadd !important;
+}
+.icon-edit{
+    background-image: url(/../../images/svg_icons/icon-edit.svg) !important;
+    height: 32px;
+    width:32px;   	
+}
+.icon-edit-inactive{
+    background-image: url(/../../images/svg_icons/icon-edit-inactive.svg) !important; 
+    height: 32px;
+    width:32px; 
+}
