@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 // import LogTabs from '../components/LogTabs';
 import ResIpOP from '../components/ResponseIPOP';
 import NavLink from 'react-router-dom/NavLink';
+import TabHeader from '../components/TabHeader';
 import { BrowserRouter, Route, Switch, HashRouter, Link } from 'react-router-dom';
 import { Tab,Tabs } from 'react-bootstrap';
 
@@ -44,7 +45,7 @@ radio2(){
 
     render() {
       return (
-          <div>
+          <div>          
         <Tabs
           activeKey={this.state.key}
           onSelect={this.handleSelect}
@@ -92,7 +93,11 @@ radio2(){
             <pre>
             <ol>
             <li><span>[</span></li>
-            <li><span>"Field Values hihihi"</span><span>":"</span><span>"zip code"</span></li>
+            <li><span>"Field Vdsdsdsddsalues"</span><span>":"</span><span>"zip code"</span></li>
+            <li><span>"Vlaue"</span><span>":"</span><span>""</span></li>
+            <li><span>"Vlaue"</span><span>":"</span><span>""</span></li>
+            <li><span>"Vlaue"</span><span>":"</span><span>""</span></li>
+            <li><span>"Vlaue"</span><span>":"</span><span>""</span></li>
             <li><span>"Vlaue"</span><span>":"</span><span>""</span></li>
             <li><span>"Field Name"</span><span>":"</span><span>"city"</span></li>
             <li><span>"Vlaue"</span><span>":"</span><span>""</span></li>
@@ -135,8 +140,11 @@ class IntReqInput extends Component{
    
     render(props){
         return(
-            <div>   
-            <ResIpOP />
+            <div className="ml-10">   
+
+            <TabHeader />
+
+            <div className="mt-10"> <ResIpOP /></div>
            
             <div className="col-sm-12 mt-20">
                <div className="form-group"><label>Server URL</label><div><input placeholder="enter server url" className="form-control input-text service_name w-10 pull-left border-rt-none b-right-0" value="POST" disabled></input><input placeholder="enter server url" className="form-control input-text service_name w-90 border-lb-none" value="http://news.google.com" disabled></input></div></div>

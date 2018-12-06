@@ -23,6 +23,7 @@ import Products from '../components/SearchBox';
 import IntReqInput from '../components/IntReqInput';
 import IntResOp from '../components/ResponseOp';
 import AppsDashboard from '../components/AppsDashboard';
+import Toggle from '../components/ToggleBtn';
 
 
 
@@ -49,6 +50,7 @@ const AppRouter = () => (
         <Route path="/contact/standard" component={StandardTab}/>
         <Route path="/contact/trace" component={TraceTab}/>
         <Route path="/search" component={Products}/>
+        <Route path="/toggle" component={Toggle}/>
         <Route path="/apps/int-req-input" component={IntReqInput} exact={true}/>
         <Route path="/apps/responce-op" component={IntResOp} exact={true}/>
 

@@ -44,34 +44,3 @@ button:disabled {
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
   background: #0082AC;
 }
-.border-lb-none{
-  border-radius: 0 4px 4px 0 !important;
-}
-.border-rt-none{
-  border-radius: 4px 0px 0px 4px !important;
-}
-.b-right-0{
-  border-right: none !important;
-}
-pre {
-  background: #f5f5f5;
-  color: #f1f1f1;
-  padding: 10px 16px;
-  border-radius: 2px;
-
-  counter-reset: line;
-}
-pre span {
-  display: block;
-  color: #7b9726;
-  line-height: 1.5rem;
-}
-pre li:before {
-  counter-increment: line;
-  content: counter(line);
-  display: inline-block;
-  
-  padding:0 12px;
-  margin-right: .5em;
-  color: #888
-}

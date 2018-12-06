@@ -1130,7 +1130,7 @@ select {
 }
 
 .v-top {
-    vertical-align: top !important;
+    vertical-align: top;
 }
 
 .v-bottom {

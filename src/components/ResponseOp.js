@@ -2,16 +2,20 @@
 import React, {Component} from 'react';
 // import LogTabs from '../components/LogTabs';
 import ResIpOP from '../components/ResponseIPOP';
+import TabHeader from '../components/TabHeader';
 
 
 class IntResOp extends Component{
    
     render(props){
         return(
-            <div className="ml-20">   
-            <ResIpOP />
-            <h1>From Response output page</h1>   
-            <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div className="ml-10">  
+           
+            <TabHeader />
+            
+            <div className="mt-10"><ResIpOP /> </div>   
+            <div className="col-sm-12 text-right mt-20"><a href="javascript:void(0);">View Logs</a></div>         
+            <div className="panel-group mt-40 col-sm-12 clear" id="accordion" role="tablist" aria-multiselectable="true">
             
                     <div className="panel panel-default">
                         <div className="panel-heading containerdragIcon pt-25 pr-20" role="tab" id="headingOne">

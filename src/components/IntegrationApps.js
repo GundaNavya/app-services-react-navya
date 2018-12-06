@@ -16,7 +16,7 @@ var itemStatus = {
               // {"modal" : "V 3.0"}              
             ] ,
             operations: [
-              "Select Operation","Get WeatherForeCast","Get CurrentWeather"
+              "Get WeatherForeCast","Get CurrentWeather"
                 // {"type" : "Select Operation"},
                 // {"type" : "Get WeatherForeCast"},
                 // {"type" : "Get CurrentWeather"}                                 
@@ -31,7 +31,7 @@ var itemStatus = {
               "V 1.0","V 2.0","V 3.0"             
             ] ,
             operations: [
-              "Select Operation","GetTopNews","GetNewsForCategory","GetLocalNews"
+             "GetTopNews","GetNewsForCategory","GetLocalNews"
                 // {"type" : "Select Operation"},
                 // {"type" : "GetTopNews"},
                 // {"type" : "GetNewsForCategory"},
@@ -47,7 +47,7 @@ var itemStatus = {
               "V 1.0","V 2.0","V 3.0"              
             ],
             operations: [
-              "Select Operation","GetStockSummary","GetStockDeatils"
+              "GetStockSummary","GetStockDeatils"
                 // {"type" : "Select Operation"},
                 // {"type" : "GetStockSummary"},
                 // {"type" : "GetStockDeatils"}              
@@ -59,13 +59,7 @@ var itemStatus = {
         ]
      }
   };
-  // const popoverLeft = (
-  //   <Popover id="popover-positioned-left">
-  //     <strong>Holy guacamole!</strong> Check this info.
-  //   </Popover>
-  // );
-  
-
+ 
 var IntegrationTab = React.createClass({
         getInitialState: function(){
           return {            
@@ -73,17 +67,7 @@ var IntegrationTab = React.createClass({
             cur_version: "V 1.0"
           };
         },
-        // constructor(props, context) {
-        //   super(props, context);
-
-        //   this.handleClick = e => {
-        //     this.setState({ target: e.target, show: !this.state.show });
-        //   };
-
-        //   this.state = {
-        //     show: false
-        //   };
-        // },
+       
         handleClick:function(e){          
           this.setState({ target: e.target, show: !this.state.show });
         },
