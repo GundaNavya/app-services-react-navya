@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-class Products extends React.Component {
+  class Products extends React.Component {
     
       constructor(props) {
         super(props);
@@ -104,7 +104,7 @@ class Products extends React.Component {
     
       }
     
-    }
+  }
     class SearchBar extends React.Component {
       handleChange() {
         this.props.onUserInput(this.refs.filterTextInput.value);

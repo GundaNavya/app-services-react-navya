@@ -20,6 +20,10 @@ import StandardTab from '../components/StandardLogs';
 import TraceTab from '../components/TraceLogs';
 import JobDetails from '../components/JobDetails';
 import Products from '../components/SearchBox';
+import IntReqInput from '../components/IntReqInput';
+import IntResOp from '../components/ResponseOp';
+import AppsDashboard from '../components/AppsDashboard';
+
 
 
 
@@ -35,7 +39,7 @@ const AppRouter = () => (
     <Switch>
         <Route path="/healthcheck" component={ExpanseDashboardPage} exact={true}/>
         <Route path="/jobs" component={JobDetails}/>
-        <Route path="/" component={EditExpansePage} exact={true}/>
+        <Route path="/" component={AppsDashboard} exact={true}/>
         <Route path="/apps/objects" component={ObjectsTab}/>
         <Route path="/apps/integration" component={IntegrationTab}/>
         <Route path="/apps/orchestration" component={OrchTab}/>
@@ -45,6 +49,8 @@ const AppRouter = () => (
         <Route path="/contact/standard" component={StandardTab}/>
         <Route path="/contact/trace" component={TraceTab}/>
         <Route path="/search" component={Products}/>
+        <Route path="/apps/int-req-input" component={IntReqInput} exact={true}/>
+        <Route path="/apps/responce-op" component={IntResOp} exact={true}/>
 
         <Route component={NotFoundPage}/>
      </Switch>
