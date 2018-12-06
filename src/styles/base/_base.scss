@@ -44,3 +44,12 @@ button:disabled {
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
   background: #0082AC;
 }
+.border-rt-none {
+border-radius:4px 0px 0px 4px !important
+}
+.b-right-0{
+  border-right: none !important
+}
+.border-lb-none{
+  border-radius:0px 4px 4px 0px!important
+}

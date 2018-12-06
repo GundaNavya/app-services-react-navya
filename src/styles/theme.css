@@ -540,7 +540,7 @@ button:focus {
     padding: 0;
     /* border-radius: 4px; */
     color: #212121;
-    background-color: #fff;
+    
     border-color: #EEEEEE;    
     line-height: 16px;    
     padding: 4px 0 4px 10px;
@@ -575,7 +575,7 @@ button:focus {
     box-shadow: 0 1px 10px rgba(0,0,0,.1);
 }
 .panel.panel-default{
-    border-top: 4px solid #E4E2E2;
+    border-top: 8px solid #E4E2E2;
     border-radius: 4px;    
     margin-top: 5px;
     margin-bottom: 25px;
@@ -583,7 +583,7 @@ button:focus {
 }
 .panel-body{
     border-top: none !important;
-    background: #fff !important;
+    background: transparent !important;
 }
 .panel-group .panel:hover {    
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
@@ -604,7 +604,10 @@ button:focus {
     vertical-align: middle;
 }
 .panel.panel-default{
-    background: #E4E2E2;    
-    padding: 5px 0 0 0;
-    border-radius: 8px 8px 0 0;
+    background: #ffffff;    
+   
+    border-radius: 8px 8px 4px 4px
+}
+.panel-default>.panel-heading{
+    background-color:transparent !important;
 }
